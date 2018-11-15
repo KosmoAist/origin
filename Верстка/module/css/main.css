@@ -11,71 +11,87 @@
     font-family: RobotoBlack; /* Имя шрифта */
     src: url(../Fonts/robotoblack.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../Fonts/PlayfairDisplay-Regular.otf);
+}
 
-li{
+li {
     list-style: none;
 }
+
+.h4 {
+    font-family: 'RobotoBlack' ;
+}
     
-    body {
-        margin: 0;
-        font-family: 'RobotoLight', sans-serif;
-        width: auto;
-    }
+body {
+    margin: 0;
+    font-family: 'RobotoLight', sans-serif;
+    width: auto;
+}
+
 .head{
     background-image: url(../image/img1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    min-height: 600px;
-   
+    min-height: 600px;   
 }
+
 .logo>img{
     width: 30px;
     height: 30px;
     background: aqua;
 }
+
 .logo{
     display: flex;
-       margin: 2%;
-       padding-left: 19%;
+    margin: 2%;
+    padding-left: 19%;
 }
 
-a{
+a {
     color: white;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .logo h2{
     color: aquamarine;
 }
 
-.nav-bar{
-   display: flex;
-   flex-direction: row;
+.nav-bar {
    flex-wrap: wrap;
    justify-content: space-between;
 }
+
+.navigation-container {
+    width: 50%;
+}
+
 .navigation {
-    padding-right: 45%;
     padding-top: 5%;
 }
 
 .navigation-list {
-    display: flex;
     font-size: 0;
-    font-family: 'Robotoblack'
+    font-family: 'Robotoblack';
 }
 
 .navigation-list li a{
-    display: inline-block;
-    Text-decoration: none;
-	
+    text-decoration: none;	
 }
 
 .navigation-list li  {
     list-style: none;
     font-size: 0.7rem; 
     margin: 1%;
-    
+    display: inline-block;
 }
+
 .text h1{
     padding: 6%;
     color: white;
@@ -91,6 +107,7 @@ a{
 
 .text{
     text-align: center;
+    padding: 0px 15% 0 15%;
 }
 
 .btn {
@@ -99,9 +116,9 @@ a{
     cursor:pointer;
     overflow: hidden;
     color: aqua;
-    outline:none;
     padding: 1%;
     border: 1px solid aqua;
+    font-family: 'Robotoblack';
 
 }
 .story-learn-more {
@@ -110,11 +127,12 @@ a{
 }
 
 .our-story{
-    min-height: 450px;
+    max-height: 450px;
     background-color: white;
     display: flex;
     flex-direction: row-reverse;
     padding: 5%;
+    padding-top: 0%;
 }
 .Logo-aqua{
     margin: 10%;
@@ -150,10 +168,336 @@ a{
     color: white;
 }
 
-.watch{
+.watch {
+    color: white;
+    padding-top: 2%;
+}
+
+.expertise-container {
+    min-height: 550px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    margin: 6% 12% 0 12%;
+}
+
+.expertise>h1 {
+    text-align: center;
+}
+
+.article {
+    flex-wrap: wrap;
+}
+
+.article-blocks {
+    margin: 2%;
+    width: 29.33%;
+    height: 33.33%;
+}
+
+.article-blocks i {
+    font-size: 2.8rem;
+    padding-bottom: 11%;
+    color: aqua;
+}
+
+.article-blocks p {
+    font-size: 0.8rem;
+}
+
+.article-blocks h4 {
+    padding-bottom: 5%;
+}
+
+.team-contanier {
+    min-height: 550px;
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.our-team {
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
+
+.team-ul {
+    padding: 5%;
+}
+
+.team-li {
+   margin: 2%;
+   text-align: center;
+}
+
+.team-li p {
+    color: white;
+    text-align: center;
+}
+
+.team-li h4 {
+    color: white;    
+}
+
+.join-us {
+    padding: 3%;
+    text-align: center;
+}
+
+.join-us p {
+    padding: 2%;
     color: white;
 }
 
-.watch{
-    padding-top: 2%;
+.items-contanier {
+    min-height: 550px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-wrap {
+    position: relative;
+    display: block;
+    width: 16.66%;
+    min-height: 12em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our-works {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.dribble>img {
+    width: 10px;
+    height: 10px;
+}
+
+.load-more {
+    margin: 3%;
+}
+
+.quote-container {
+    min-height: 550px;
+    background-image: url(../image/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title-h4 {
+    font-family: 'RobotoBlack';
+    padding-bottom: 1%;
+}
+.title-h1 {
+margin: 2.5%;
+text-align: center;
+font-size: 1.3rem;
+font-family: 'RobotoBlack';
+}
+.quotes {
+    font-family: 'PlayfairDisplay';
+    font-size: 7rem;
+    color: white;
+    text-align: center;
+}
+
+.text blockquote {
+    padding-bottom: 5%;
+    font-family: 'PlayfairDisplay';
+
+}
+
+cite {
+    font-style: normal;
+}
+
+.text h4 {
+    color: white;
+}
+
+.testimonial {
+    padding-top: 5%; 
+    position: relative;
+}
+
+.not-active {
+    padding: 1% 0.5% 0 0.5%;
+}
+
+.active {
+    padding: 0 0.5% 0px 0.5%;
+}
+
+.prev,
+.next {
+	width: 20px;
+	height: 20px;
+	z-index: 1;
+	top: 73%;
+    margin-top: -15px;
+	background:none;
+	padding: 0;
+	border: 2px solid black;
+    border-width: 2px 2px 0 0;
+    position: absolute;
+}
+
+.next{
+    left: 65%;
+    transform: rotate(45deg);    
+}
+
+.prev {
+    left: 33%;
+    transform: rotate(220deg);
+}
+
+.form-contanier{
+    min-height: 650px;
+    background-color: white;
+    display: flex;
+    padding: 5%;
+    padding-top: 0%;
+    justify-content: center;
+}
+
+.form-contanier h1 {
+    margin: 2.5%;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'RobotoBlack';
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 50%;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.action p {
+    margin-left: 2%;
+}
+
+.contact-input {
+    margin: 2%;
+    padding: 2%;
+}
+
+.icon-brand {
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+    width: 50%;
+}
+
+.logo-img {
+    position: relative;
+    display: block;
+    width: 50%;
+    min-height: 2em;
+    background-size: 73% 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+/*margin: 2%;*/
+    margin-bottom: 9%;
+}
+
+.img-brand {
+    flex-wrap: wrap;
+}
+
+.submit {
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+}
+
+.end-contanier {
+    max-height: 500px;
+    background-image: url(../image/back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.paper {
+    width: 20px;
+    height: 20px;
+}
+
+.end {
+    display: flex;
+    margin: 4%;
+}
+
+.logo-footer {
+    max-width: 33.33%;
+    text-align: center;
+    margin: 2%;
+}
+
+.logoimg {
+    display: flex;
+    padding: 6%;
+    margin: 0% 0% 9% 0%;
+}
+
+.info-footer {
+    max-width: 33.33%;
+    margin: 2%;
+}   
+
+.logo-footer h2 {
+    margin: 8% 0% 0% 0%;
+}
+
+.our-studio {
+    margin: 21% 0% 33% 0%;
+}
+
+
+.social {
+    max-width: 33.33%;
+    min-width: 33.33%;
+    margin: 2%;
+}
+
+.stay-toch {
+    margin: 13% 0% 22% 0%;
+}
+
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.foot-info {
+    display: flex;
+    flex-direction: row;
 }

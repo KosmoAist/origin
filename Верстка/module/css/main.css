@@ -430,7 +430,7 @@ cite {
     width: 30%;
 }
 
-.end-contanier {
+.end-container {
     max-height: 500px;
     background-image: url(../image/back1.jpg);
     background-repeat: no-repeat;
@@ -439,7 +439,6 @@ cite {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     align-content: flex-start;
     align-items: center;
 }
@@ -451,7 +450,8 @@ cite {
 
 .end {
     display: flex;
-    margin: 4%;
+    /* margin: 4%; */
+    padding: 0px 8%;
 }
 
 .logo-footer {
@@ -464,6 +464,10 @@ cite {
     display: flex;
     padding: 6%;
     margin: 0% 0% 9% 0%;
+}
+
+.logo-info {
+    text-align: initial;
 }
 
 .info-footer {
@@ -479,7 +483,6 @@ cite {
     margin: 21% 0% 33% 0%;
 }
 
-
 .social {
     max-width: 33.33%;
     min-width: 33.33%;
@@ -490,14 +493,32 @@ cite {
     margin: 13% 0% 22% 0%;
 }
 
+.foot-info {
+    width: 50%;
+}
+
+.foot-info a{
+    display: inline-block;
+    padding: 0 5% 0 0;
+}
 
 .foot {
     display: flex;
     flex-direction: row;
-    margin: 5%;
+    margin: 5% 0%;
+    padding: 0px 10%;
+        width: 100%;
 }
 
-.foot-info {
+.action-man {
     display: flex;
     flex-direction: row;
+    padding: 0% 50% 0% 0%;
+    margin: 0% 0% 8% 0%;
+    opacity: 0.5;
+}
+
+.copyright {
+    width: 50%;
+    padding-left: 12%;
 }

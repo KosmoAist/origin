@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+    .article-blocks {
+        margin: 8%;
+        width: 29.33%;
+        min-height: 33.33%;
+    }
+
+    .item-wrap {
+        width: 50%;
+    }
+
+    #area {
+        max-width: 100%;
+    }
+
+    .form>.action {
+        width: 80%;
+        padding: 2%;
+    }
+
+    .submit {
+        width: 60%;
+    }
+
+    .logo-footer {
+        max-width: 20.33%;
+        text-align: center;
+        margin: 3%;
+    }
+
+
+    .logo-footer {
+        max-width: 33.33%;
+        text-align: center;
+        margin: 3%;
+    }
+
+    .info-footer {
+        max-width: 33.33%;
+        margin: 3%;
+        padding: 0% 0% 0% 11%;
+    }
+
+    .social {
+        max-width: 33.33%;
+        min-width: 33.33%;
+        margin: 2%;
+        padding: 0% 0% 0% 16%;
+    }
+
+    .logoimg {
+        padding: 0%;
+    }
+
+    .logoimg>img {
+        width: 35px;
+        height: 35px
+    }
+
+    .our-studio {
+        margin: 0% 0% 20% 0%;
+    }
+
+    .action-man>input {
+        width: 100%;
+        padding-right: 115%;
+    }
+    .team-ul {
+        flex-wrap: wrap;
+    }
+    .our-story {
+        flex-direction: column-reverse;
+        max-height: 600px;
+    }
+    .story-learn-more {
+        float: none;
+    }
+
+    .Logo-aqua {
+        padding: 0 0 0 15%;
+        margin: 0;
+    }
+}

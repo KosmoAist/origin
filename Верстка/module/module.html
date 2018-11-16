@@ -18,6 +18,9 @@
                 <img src="image/Vector Smart Object.png" alt="Logo">
                 <h2>tajam</h2>
             </div>
+            <button id="nav-opener" onclick="myClick()">
+                    <i class="fas fa-bars"></i>
+                </button>
             <div class="navigation-container">
                 <nav class="navigation">
                     <ul class="navigation-list">
@@ -229,7 +232,7 @@
             </div>
         </div>
     </div>
-    <footer class="end-container">
+    <footer class="end-container flex-row">
         <div class="end">
             <div class="logo-footer">
                 <div class="logoimg">
@@ -283,4 +286,10 @@
             </div>
         </div>
     </footer>
+    <script>
+        var body = document.getElementsByTagName('body')[0];
+        function myClick() {
+            body.classList.toggle('nav-active');
+        }
+    </script>
 </body>
